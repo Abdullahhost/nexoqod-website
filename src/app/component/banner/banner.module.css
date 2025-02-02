@@ -1,0 +1,232 @@
+._flex {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.gradiant_bg_one {
+  background-image: linear-gradient(to right top, #f3f9ff, #fff2f242);
+}
+.gradiant_bg_two {
+  background-image: linear-gradient(
+    to right top,
+    #f3f2ff,
+    #e9f7ff,
+    #e2fcff,
+    #e4fff7,
+    #f1ffeb
+  );
+}
+
+.problem_text {
+  overflow: hidden;
+  animation: fadeIn 2s 1;
+}
+.animated_BG_Text {
+  font-size: 36px;
+  font-weight: bold;
+  /* text-shadow: 5px -5px 1px #000000; */
+  background-clip: text;
+  --webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    45deg,
+    aqua,
+    blue,
+    magenta,
+    red,
+    cyan,
+    orange,
+    rgb(235, 144, 25),
+    green,
+    cyan,
+    blue,
+    violet,
+    cyan,
+    skyblue
+  );
+  background-size: 320px 320px;
+  animation: bganimate 10s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+.problem_text span {
+  animation: fadeAnim 8.5s infinite;
+  animation-delay: 1s;
+  animation-delay: calc(var(--x) * 0.2s);
+  display: inline-block;
+  transition: all ease-in-out 400ms;
+}
+.problem_text span:nth-child(1) {
+  animation: prOne 8.5s infinite;
+  animation-delay: 1s;
+}
+.problem_text span:nth-child(6) {
+  animation: prFour 5s linear infinite;
+  animation-delay: 1s;
+}
+.problem_text span:nth-child(4) {
+  animation: prTwo 8.5s linear infinite;
+  animation-delay: 1s;
+}
+.problem_text span:nth-child(2) {
+  animation: prThree 8.5s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes prOne {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+    scale: 1.5;
+  }
+
+  10% {
+    transform: translateY(0px) rotate(48deg);
+    scale: 1;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+  }
+  85% {
+    color: #22c55e;
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0;
+  }
+}
+@keyframes prTwo {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+    scale: 1.5;
+  }
+
+  10% {
+    transform: translateY(0px) rotate(360deg);
+    scale: 1;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+  }
+  85% {
+    color: #22c55e;
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    scale: 1;
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0;
+  }
+}
+@keyframes prThree {
+  0% {
+    opacity: 0;
+    scale: 1.8;
+  }
+  0% {
+    opacity: 1;
+    scale: 5.8;
+  }
+
+  10% {
+    scale: 0.5;
+    opacity: 1;
+  }
+  15% {
+    opacity: 2.1;
+    scale: 1;
+  }
+  85% {
+    color: #22c55e;
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    scale: 1;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeAnim {
+  0% {
+    color: rgb(255, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    color: #22c55e;
+    opacity: 1;
+  }
+}
+@keyframes prFour {
+  0%,
+  100% {
+    color: red;
+    transform: rotate(0deg);
+  }
+  90% {
+    color: #22c55e;
+    transform: rotate(0deg);
+  }
+  95% {
+    transform: rotate(-300deg);
+    color: #22c55e;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bganimate {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ._flex {
+    flex-direction: column;
+    gap: 0rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 480px) {
+  .sticky_Nav {
+    padding: 0px 12px;
+  }
+}
