@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Image
                             className={`${logo_image} -ml-4 md:ml-0 lg:ml-6`}
                             alt="Logo-Image"
-                            src={"/nexoqod_logo.png"}
+                            src={"/nexoqod_logo_remove_bg.png"}
                             width={5000}
                             height={5000}
                         />

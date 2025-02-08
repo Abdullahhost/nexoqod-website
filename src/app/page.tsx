@@ -11,7 +11,7 @@ import WhoWeAre from "./section/who-we-are/WhoWeAre";
 export default function Home() {
   return (
     <>
-      <header className="bg-black">
+      <header className="bg-black" >
         <Navbar />
       </header>
 

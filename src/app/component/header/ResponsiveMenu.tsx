@@ -27,7 +27,7 @@ const ResponsiveMenu = () => {
                     zIndex: "1000"
                 }}
 
-                className={`fixed top-[0%] lg:top-[-25%] w-full md:w-2/4 h-full lg:h-[150vh] 
+                className={`fixed top-[0%] lg:top-[-25%] w-full md:w-[380px] h-full lg:h-[150vh] 
                     bg-black shadow-2xl flex flex-col items-center justify-center
                      
                     ${state.toggleMenu === true ? "right-0  rounded-none" :
@@ -74,7 +74,7 @@ const ResponsiveMenu = () => {
                                     border-neutral-500 border-b py-10  my-5">
 
                         <div className="sideBarMenu w-full flex justify-between items-center">
-                            <MenuItem fontSize={40} linkName={"Home"} />
+                            <MenuItem fontSize={30} linkName={"Home"} />
 
                             {path === "/" && <>
                                 <span className="w-3 h-3 bg-white  rounded-full"></span>
@@ -88,14 +88,14 @@ const ResponsiveMenu = () => {
                             </>}
                         </div> */}
                         <div className="sideBarMenu w-full flex justify-between items-center">
-                            <MenuItem fontSize={40} linkName={"About"} />
+                            <MenuItem fontSize={30} linkName={"About"} />
 
                             {path === "/about" && <>
                                 <span className="w-3 h-3 bg-white  rounded-full"></span>
                             </>}
                         </div>
                         <div className="sideBarMenu w-full flex justify-between items-center">
-                            <MenuItem fontSize={40} linkName={"Project"} />
+                            <MenuItem fontSize={30} linkName={"Project"} />
 
                             {path === "/project" && <>
                                 <span className="w-3 h-3 bg-white  rounded-full"></span>
@@ -103,7 +103,7 @@ const ResponsiveMenu = () => {
                         </div>
                         <div className="sideBarMenu w-full flex justify-between items-center">
 
-                            <MenuItem fontSize={40} linkName={"Contact"} />
+                            <MenuItem fontSize={30} linkName={"Contact"} />
                             {path === "/contuct" && <>
                                 <span className="w-3 h-3 bg-white  rounded-full"></span>
                             </>}

@@ -58,7 +58,7 @@ const VideoPlayer: React.FC<VideoType> = ({ videoSrc }) => {
     };
 
     return (
-        <div className="relative w-full  rounded-3xl lg:w-fit flex justify-start items-center h-fit">
+        <div className="relative w-full lg:min-w-[40vw] rounded-3xl lg:w-fit flex justify-start items-center h-fit">
             <div className="relative">
                 <video
 

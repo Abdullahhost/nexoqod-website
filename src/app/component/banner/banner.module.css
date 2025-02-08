@@ -3,9 +3,30 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
+.banner_gradiant {
+  /* background: linear-gradient(
+    to bottom right,
+    #40b9c3,
+    #000 40%,
+    #40b9c3 60%,
+    #054449 80%
+  ); */
+  background: linear-gradient(
+    to bottom right,
+    #40b9c3,
+    #000 40%,
+    #40b9c3 60%,
+    #054449 80%
+  );
+  /* background: linear-gradient(to bottom right, #41b8c3, #000 15%, #40b9c3); */
+  border-bottom-left-radius: 12vw;
+  box-shadow: 0 0 50px #0006;
+
+  border-left: 5px solid #cbd5e1;
+}
 .gradiant_bg_one {
   background-image: linear-gradient(to right top, #f3f9ff, #fff2f242);
 }
@@ -52,26 +73,26 @@
 }
 .problem_text span {
   animation: fadeAnim 8.5s infinite;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
   animation-delay: calc(var(--x) * 0.2s);
   display: inline-block;
   transition: all ease-in-out 400ms;
 }
 .problem_text span:nth-child(1) {
   animation: prOne 8.5s infinite;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 .problem_text span:nth-child(6) {
   animation: prFour 5s linear infinite;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 .problem_text span:nth-child(4) {
   animation: prTwo 8.5s linear infinite;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 .problem_text span:nth-child(2) {
   animation: prThree 8.5s linear infinite;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 
 @keyframes prOne {
@@ -92,7 +113,7 @@
     transform: translateY(0px) rotate(0deg);
   }
   85% {
-    color: #22c55e;
+    color: #40b9c3;
     opacity: 1;
     scale: 1;
     transform: translateY(0px) rotate(0deg);
@@ -121,7 +142,7 @@
     transform: translateY(0px) rotate(0deg);
   }
   85% {
-    color: #22c55e;
+    color: #40b9c3;
     opacity: 1;
     scale: 1;
     transform: translateY(0px) rotate(0deg);
@@ -151,7 +172,7 @@
     scale: 1;
   }
   85% {
-    color: #22c55e;
+    color: #40b9c3;
     opacity: 1;
     scale: 1;
   }
@@ -167,23 +188,23 @@
     opacity: 0;
   }
   100% {
-    color: #22c55e;
+    color: #40b9c3;
     opacity: 1;
   }
 }
 @keyframes prFour {
   0%,
   100% {
-    color: red;
+    color: rgb(0, 0, 0);
     transform: rotate(0deg);
   }
   90% {
-    color: #22c55e;
+    color: #40b9c3;
     transform: rotate(0deg);
   }
   95% {
     transform: rotate(-300deg);
-    color: #22c55e;
+    color: #40b9c3;
   }
 }
 

@@ -40,6 +40,8 @@ TV and Extra Large Screens – 1201px and more. */
 
 .sticky_Nav {
   background: #000;
+  border-bottom: 1px solid #fff5;
+  backdrop-filter: blur(5px);
   position: fixed;
   top: 0;
   left: 0;

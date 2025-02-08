@@ -12,7 +12,7 @@ const MenuIconSection = () => {
             <div className="hidden md:block">
                 <SocialLink
                     icon={BsFacebook}
-                    iconSize={25}
+                    iconSize={18}
                     linkName="FaceBook"
                     linkUrl="https://facebook.com"
                 />
@@ -28,7 +28,7 @@ const MenuIconSection = () => {
             <div className="hidden md:block">
                 <SocialLink
                     icon={BsTwitterX}
-                    iconSize={25}
+                    iconSize={18}
                     linkName="TwiterX"
                     linkUrl="https://twiterX.com"
                 />
@@ -46,7 +46,7 @@ const MenuIconSection = () => {
             <div className="hidden md:block">
                 <SocialLink
                     icon={BsLinkedin}
-                    iconSize={25}
+                    iconSize={18}
                     linkName="TwiterX"
                     linkUrl="https://twiterX.com"
                 />
