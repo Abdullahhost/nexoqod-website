@@ -1,6 +1,8 @@
 import Banner from "./component/banner/Banner";
 import Footer from "./component/footer/Footer";
 import Navbar from "./component/header/Navbar";
+import ResponsiveMenu from "./component/header/ResponsiveMenu";
+import ToggleBtn from "./component/ToggleBtn";
 import OurFeatures from "./section/our-features/OurFeatures";
 import OurSolution from "./section/our-solution/OurSolution";
 import OurPartner from "./section/out-partner/OurPartner";
@@ -13,6 +15,12 @@ export default function Home() {
     <>
       <header className="bg-black" >
         <Navbar />
+
+        <div>
+          <menu className="relative">
+            <ResponsiveMenu />
+          </menu>
+        </div>
       </header>
 
       <main className="">

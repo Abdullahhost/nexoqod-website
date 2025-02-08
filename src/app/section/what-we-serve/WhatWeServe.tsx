@@ -17,7 +17,7 @@ const WhatWeServe = () => {
                 <div className='flex items-center flex-col mb-12 justify-center'>
 
                     <h2 className={`text-[36px] font-bold`}>Industry <span className={`${style2.animated_BG_Text}`}>We Serve</span> </h2>
-                    <h4 className='text-[14px] font-[Poppins,_sans-serif] leading-[30px] font-light w-full mx-auto lg:w-[55%] text-center'>Bridge Your Business with the Virtual World</h4>
+                    <h4 className='text-[14px] leading-[30px] font-light w-full mx-auto lg:w-[55%] text-center'>Bridge Your Business with the Virtual World</h4>
                 </div>
 
                 <div className={`w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4`}>

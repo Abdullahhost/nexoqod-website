@@ -13,7 +13,7 @@ const OurFeatures = () => {
                 <div className="flex items-center w-full md:w-[75%] lg:w-[60%] flex-col text-center justify-center">
 
                     <h3 className="text-[36px] font-bold mb-2 leading-[1.1]">Share Your Demand to <br /> <span className={`${animated_BG_Text}`}>Design Any Customized</span> Software</h3>
-                    <p className='text-[16px] my-2 lg:w-[85%] font-[Poppins,_sans-serif] leading-[25px] font-light w-full'>Bdtask, Inc. focuses on the exact requirements of the clients. We design and develop the best and most advanced software for all types of businesses
+                    <p className='text-[16px] my-2 lg:w-[85%] leading-[25px] font-light w-full'>Bdtask, Inc. focuses on the exact requirements of the clients. We design and develop the best and most advanced software for all types of businesses
                     </p>
 
                 </div>

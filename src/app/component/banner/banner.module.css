@@ -14,18 +14,8 @@
     #40b9c3 60%,
     #054449 80%
   ); */
-  background: linear-gradient(
-    to bottom right,
-    #40b9c3,
-    #000 40%,
-    #40b9c3 60%,
-    #054449 80%
-  );
   /* background: linear-gradient(to bottom right, #41b8c3, #000 15%, #40b9c3); */
-  border-bottom-left-radius: 12vw;
-  box-shadow: 0 0 50px #0006;
-
-  border-left: 5px solid #cbd5e1;
+  background: #d8d8d8;
 }
 .gradiant_bg_one {
   background-image: linear-gradient(to right top, #f3f9ff, #fff2f242);

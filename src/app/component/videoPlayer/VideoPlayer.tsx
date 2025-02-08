@@ -4,6 +4,7 @@
 import React, { useRef, useState } from 'react';
 
 import style from "./videoPlayer.module.css"
+
 type VideoType = {
     videoSrc: string;
 }
@@ -65,7 +66,7 @@ const VideoPlayer: React.FC<VideoType> = ({ videoSrc }) => {
                     ref={videoRef}
                     onTimeUpdate={updateProgress}
                     onEnded={handleVideoEnd}
-                    className="w-full rounded-3xl border-8 border-slate-300 h-full object-cover"
+                    className="w-full h-full object-cover"
                 >
                     <source src={videoSrc} type="video/mp4" />
                 </video>

@@ -14,11 +14,10 @@ const Banner = () => {
     const { _flex, problem_text, animated_BG_Text, banner_gradiant } = style;
     return (
         <div className="relative h-full overflow-hidden">
-            <div className={` ${banner_gradiant} hidden lg:block absolute -bottom-8 right-0 h-[105%] w-[45%] origin-top-left -rotate-[10deg] border`}>
+            <div className={` ${banner_gradiant} hidden lg:block absolute -top-16 right-0 h-[125%] w-[60%] origin-bottom-left rotate-[10deg] border`}>
 
             </div>
             <div className="max-width min-h-screen flex items-center justify-center h-full relative">
-
                 <div className={`${_flex} py-12 md:px-12 w-full`}>
 
                     <div className="w-full md:w-[90%] lg:w-[55%] relative text-[40px] font-bold">

@@ -5,7 +5,6 @@ import Image from "next/image"
 
 import style from "./navbar.module.css";
 import ToggleBtn from "../ToggleBtn";
-import ResponsiveMenu from "./ResponsiveMenu";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -46,7 +45,6 @@ const Navbar = () => {
                     </div>
 
                     <menu className="relative">
-                        <ResponsiveMenu />
                         <ToggleBtn />
                     </menu>
                 </div>

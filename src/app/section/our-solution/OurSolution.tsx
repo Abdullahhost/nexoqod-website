@@ -49,7 +49,7 @@ const OurSolution = () => {
                     <div className='flex items-center flex-col my-3 justify-center'>
 
                         <h2 className={`my-3 text-[36px] font-bold`}>Our <span className={`${animated_BG_Text}`}>Solution</span> </h2>
-                        <h4 className='text-[19px] font-[Poppins,_sans-serif] leading-[30px] font-light w-full mx-auto lg:w-[55%] text-center'>We provide a time-worthy business solution to every type of business. Find out your one and level up your success stairs.</h4>
+                        <h4 className='text-[19px] leading-[30px] font-light w-full mx-auto lg:w-[55%] text-center'>We provide a time-worthy business solution to every type of business. Find out your one and level up your success stairs.</h4>
                     </div>
                     <div className='flex p-6 gap-2 items-center justify-center flex-wrap mb-6'>
                         {allButton.map((sBtn) => {

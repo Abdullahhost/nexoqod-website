@@ -5,7 +5,7 @@ import { BsFacebook, BsLinkedin, BsPinterest, BsTwitter, BsYoutube } from "react
 const Footer = () => {
     return (
         <div className="bg-black text-[#6C757D] min-h-screen py-12 px-0 md:12 lg:px-12">
-            <div className="max-width text-[16px] font-[Poppins,_sans-serif] leading-[25px] font-light">
+            <div className="max-width text-[16px] leading-[25px] font-light">
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
                     <div className="">
                         <Image
@@ -13,7 +13,7 @@ const Footer = () => {
                             alt="Logo Image"
                             width={5000}
                             height={5000}
-                            src={'/nexoqod_logo.png'}
+                            src={'/nexoqod_logo_remove_bg.png'}
                         />
                         <p className="text-[#6C757D] w-[80%] my-2">Best Software Development Company To Architect The Dream For Next Generation.</p>
 
