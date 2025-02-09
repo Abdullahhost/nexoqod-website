@@ -13,15 +13,15 @@ import ClientReview from "./ClientRivew";
 const Banner = () => {
     const { _flex, problem_text, animated_BG_Text, banner_gradiant } = style;
     return (
-        <div className="relative h-full overflow-hidden">
-            <div className={` ${banner_gradiant} hidden lg:block absolute -top-[15vw] right-0 h-[150%] w-[65%] origin-bottom-left rotate-[10deg] border`}>
+        <div className="w-full relative h-full overflow-hidden">
+            <div className={` ${banner_gradiant} hidden lg:block absolute -top-[15vw] right-0 h-[150%] w-[65%] origin-bottom-left rotate-[15deg] border`}>
 
             </div>
             <div className="min-h-screen flex items-center justify-center h-full relative max-width">
-                <div className={`${_flex} w-full py-12 px-0 md:px-12  lg:px-12 `}>
+                <div className={`${_flex} w-full py-12 px-0 md:px-6  lg:px-4 `}>
 
-                    <div className="md:w-[90%] lg:w-[45%] relative text-[40px] font-bold">
-                        <div className="h-[100px] lg:h-fit text-[#40B9C3]">
+                    <div className="w-full md:w-[90%] lg:w-[50%] relative text-[34px] font-bold">
+                        <div className="w-full h-[100px] lg:h-fit text-[#40B9C3]">
 
                             <TypeAnimation
                                 sequence={[
@@ -37,7 +37,7 @@ const Banner = () => {
                                 repeat={Infinity}
                             />
                         </div>
-                        <div className={`absolute px-1 py-2 top-[-8px] left-[103px] w-fit h-fit bg-white text-[40px] ${problem_text}`}>
+                        <div className={`absolute px-1 py-2 top-[-8px] left-[87px] w-fit h-fit bg-white text-[34px] ${problem_text}`}>
                             <span style={{ '--x': 1 } as CSSProperties}>P</span>
                             <span style={{ '--x': 2 } as CSSProperties}>r</span>
                             <span style={{ '--x': 3 } as CSSProperties}>o</span>
@@ -47,16 +47,13 @@ const Banner = () => {
                             <span style={{ '--x': 7 } as CSSProperties}>m</span>
                         </div>
 
-                        <h2 className="mt-6 md:mt-4 text-[32px] text-wrap font-normal  leading-[1.2]">Innovative <span className={`${animated_BG_Text}`}> software solutions </span> <br />tailored to your  <span className={`${animated_BG_Text}`}> needs </span></h2>
+                        <h2 className="mt-6 md:mt-4 text-[28px] text-wrap font-normal  leading-[1.2]">Innovative <span className={`${animated_BG_Text}`}> software solutions </span> <br />tailored to your  <span className={`${animated_BG_Text}`}> needs </span></h2>
 
-                        <h4 className="text-[20px]  tracking-wide my-4 w-full lg:w-[85%] font-light text-[#555]">We specialize in crafting exceptional digital experiences, empowering businesses with cutting-edge technology.</h4>
+                        <h4 className="text-[18px]  tracking-wide my-4 w-full lg:w-[85%] font-light text-[#555]">We specialize in crafting exceptional digital experiences, empowering businesses with cutting-edge technology.</h4>
 
 
                         <div className="w-full md:w-[70%] lg:w-[70%]">
                             <h4 className="text-xl mt-8 lg:mt-10 text-[teal]">Our Customer's Feedback</h4>
-                            {/* <p className="text-sm font-[400]">
-                            Our honorable and valuable clients share their values with us. Let’s hear our satisfied clients’ voices.
-                        </p> */}
                             <div>
                                 <ClientReview />
                             </div>
