@@ -14,18 +14,18 @@ const Banner = () => {
     const { _flex, problem_text, animated_BG_Text, banner_gradiant } = style;
     return (
         <div className="relative h-full overflow-hidden">
-            <div className={` ${banner_gradiant} hidden lg:block absolute -top-40 right-0 h-[125%] w-[60%] origin-bottom-left rotate-[10deg] border`}>
+            <div className={` ${banner_gradiant} hidden lg:block absolute -top-[15vw] right-0 h-[150%] w-[65%] origin-bottom-left rotate-[10deg] border`}>
 
             </div>
-            <div className="max-width min-h-screen flex items-center justify-center h-full relative">
-                <div className={`${_flex} py-12 md:px-12 w-full`}>
+            <div className="min-h-screen flex items-center justify-center h-full relative max-width">
+                <div className={`${_flex} w-full py-12 px-0 md:px-12  lg:px-12 `}>
 
-                    <div className="w-full md:w-[90%] lg:w-[55%] relative text-[40px] font-bold">
+                    <div className="md:w-[90%] lg:w-[45%] relative text-[40px] font-bold">
                         <div className="h-[100px] lg:h-fit text-[#40B9C3]">
 
                             <TypeAnimation
                                 sequence={[
-                                    `Your Problem We Will Solve`,
+                                    `Your Problem We Will Solved`,
                                     5000,
                                     " ",
 

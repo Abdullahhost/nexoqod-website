@@ -19,11 +19,12 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 65px;
   margin: 0 auto;
   z-index: 1000;
   animation: fadeAnimation 300ms 1;
   box-shadow: 0px 6px 8px 2px rgba(42, 25, 49, 0.08);
-  padding: 0px 3rem;
+  padding: 0px 1.52em;
 }
 .sticky_nav_max_width {
   width: min(100% - 0rem, 145ch);
@@ -49,26 +50,26 @@
 /* Large Device */
 @media screen and (max-width: 1024px) {
   .sticky_Nav {
-    padding: 0px 3rem;
+    padding: 0px 1rem;
   }
 }
 
 /* ======================= Midium Device =================== */
 @media screen and (max-width: 768px) {
   .sticky_Nav {
-    padding: 0px 1rem;
+    padding: 0px 1.3rem;
   }
   .logo_image {
-    width: 8rem;
+    width: 6rem;
   }
 }
 
 /* ======================= Small Device =================== */
 @media screen and (max-width: 480px) {
   .sticky_Nav {
-    padding: 0px 12px;
+    padding: 0px 0px;
   }
   .logo_image {
-    width: 8rem;
+    width: 6rem;
   }
 }

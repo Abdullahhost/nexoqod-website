@@ -42,7 +42,7 @@ const OurSolution = () => {
         setCurrentView(name)
     }
     return (
-        <div className=" bg-[#f9fcff] min-h-screen py-6 md:p-12 lg:px-24">
+        <div className=" bg-[#f9fcff] min-h-screen py-6 md:p-12 lg:px-12">
             <div className="max-width">
 
                 <div className="flex px-0 flex-col items-center justify-center gap-1 ">

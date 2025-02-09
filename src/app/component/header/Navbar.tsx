@@ -30,7 +30,7 @@ const Navbar = () => {
     const { logo_image, navbar, sticky_Nav, sticky_nav_max_width } = style
     return (
         <nav className={`${stickyNav ? sticky_Nav : "static"} max-width`}>
-            <div className={`${navbar} md:px-6 lg:p-0`}>
+            <div className={`${navbar}`}>
                 <div className={`${sticky_nav_max_width}`}>
 
 

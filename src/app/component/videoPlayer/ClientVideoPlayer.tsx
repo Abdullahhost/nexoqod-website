@@ -56,7 +56,7 @@ const ClientVideoPlayer: React.FC<VideoType> = ({ videoSrc }) => {
                     ref={videoRef}
                     onTimeUpdate={updateProgress}
                     onEnded={handleVideoEnd}
-                    className="w-full border-[6px] border-slate-300 rounded-2xl h-full object-cover"
+                    className="w-full h-full object-cover"
                 >
                     <source src={videoSrc} type="video/mp4" />
                 </video>

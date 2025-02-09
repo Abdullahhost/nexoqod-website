@@ -11,7 +11,7 @@ const WhatWeServe = () => {
 
     const { bg_what_we_serve_section } = style
     return (
-        <div className={`${bg_what_we_serve_section} max-width px-0 md:px-12 lg:px-24 py-12 flex items-center justify-center min-w-full min-h-screen`}>
+        <div className={`${bg_what_we_serve_section} max-width px-0 md:px-12 lg:px-12 py-12 flex items-center justify-center min-w-full min-h-screen`}>
 
             <div className="max-width">
                 <div className='flex items-center flex-col mb-12 justify-center'>
