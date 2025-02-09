@@ -6,12 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-height: 75px;
+  max-height: 65px;
 }
 
 .sticky_Nav {
   /* background: #000; */
-  background: #00000091;
+  background: #000000;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.582);
   backdrop-filter: blur(5px);
@@ -34,7 +34,7 @@
 }
 
 .logo_image {
-  width: 7.5rem;
+  width: 6rem;
 }
 
 @keyframes fadeAnimation {

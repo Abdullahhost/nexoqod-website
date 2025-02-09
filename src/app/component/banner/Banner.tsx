@@ -14,7 +14,7 @@ const Banner = () => {
     const { _flex, problem_text, animated_BG_Text, banner_gradiant } = style;
     return (
         <div className="relative h-full overflow-hidden">
-            <div className={` ${banner_gradiant} hidden lg:block absolute -top-16 right-0 h-[125%] w-[60%] origin-bottom-left rotate-[10deg] border`}>
+            <div className={` ${banner_gradiant} hidden lg:block absolute -top-40 right-0 h-[125%] w-[60%] origin-bottom-left rotate-[10deg] border`}>
 
             </div>
             <div className="max-width min-h-screen flex items-center justify-center h-full relative">
@@ -37,7 +37,7 @@ const Banner = () => {
                                 repeat={Infinity}
                             />
                         </div>
-                        <div className={`absolute px-1 py-2 top-[-8px] left-[94px] w-fit h-fit bg-white text-[40px] ${problem_text}`}>
+                        <div className={`absolute px-1 py-2 top-[-8px] left-[103px] w-fit h-fit bg-white text-[40px] ${problem_text}`}>
                             <span style={{ '--x': 1 } as CSSProperties}>P</span>
                             <span style={{ '--x': 2 } as CSSProperties}>r</span>
                             <span style={{ '--x': 3 } as CSSProperties}>o</span>

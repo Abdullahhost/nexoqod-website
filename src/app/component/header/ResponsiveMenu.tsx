@@ -43,7 +43,7 @@ const ResponsiveMenu = () => {
                         <div ref={divRef}
                             title="Toggle menu"
                             style={{ zIndex: "500" }}
-                            className={`absolute top-[10px] right-[15px] md:top-[30px] md:right-[30px] w-[50px] bg-[#40B9C3] overflow-hidden p-3 h-[50px] rounded-full flex flex-col items-center justify-center`}
+                            className={`absolute top-[10px] right-[15px] md:top-[30px] md:right-[30px] w-[40px] bg-[#40B9C3] overflow-hidden p-2 h-[40px] rounded-full flex flex-col items-center justify-center`}
                             onMouseMove={(e) => handleMouseMove(e, divRef, contentRef)}
                             onMouseOut={(e) => handleMouseOut(e, divRef, contentRef)}
                         >
