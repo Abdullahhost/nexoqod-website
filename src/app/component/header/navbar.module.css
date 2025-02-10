@@ -10,7 +10,6 @@
 }
 
 .sticky_Nav {
-  /* background: #000; */
   background: #000000;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.582);
@@ -67,7 +66,8 @@
 /* ======================= Small Device =================== */
 @media screen and (max-width: 480px) {
   .sticky_Nav {
-    padding: 0px 0px;
+    width: 100%;
+    padding: 10px 0px;
   }
   .logo_image {
     width: 6rem;

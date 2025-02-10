@@ -22,7 +22,6 @@ const Navbar = () => {
             } else {
                 setStickyNav(false)
             }
-
         })
 
     }, [stickyNav, setStickyNav])

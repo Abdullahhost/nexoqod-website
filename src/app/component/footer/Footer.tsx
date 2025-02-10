@@ -4,7 +4,7 @@ import { BsFacebook, BsLinkedin, BsPinterest, BsTwitter, BsYoutube } from "react
 
 const Footer = () => {
     return (
-        <div className="bg-black text-[#6C757D] min-h-screen py-12 px-0 md:12 lg:px-12">
+        <div className="w-full bg-black text-[#6C757D] min-h-screen py-12 px-0 md:12 lg:px-12">
             <div className="max-width text-[16px] leading-[25px] font-light">
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
                     <div className="">
@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
 
                 <div className="w-full mt-12 flex gap-4 flex-wrap items-center justify-between">
-                    <div className="flex gap-4">
+                    <div className="w-full flex gap-4 flex-wrap">
                         <Image
                             className="w-20"
                             alt="Image"
@@ -139,7 +139,7 @@ const Footer = () => {
                         />
                     </div>
                     <div>
-                        <div className="flex gap-4">
+                        <div className="w-full flex gap-4 flex-wrap">
                             <h2>We accept</h2>
                             <Image
                                 className="w-10 h-6"
